@@ -1,17 +1,43 @@
 body {
+    background-image: url(/images/RmR_Logo_blk-wht_v4_flattened.png);
     background-repeat: no-repeat;
-    height: 100%;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+html {
+  height: 100%;
 }
 
 p {
     font-size: 50px;
-    /*font-color: black; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;;
+    justify-content: center;
 }
 
-#pic {
- justify-content: center;
+.text {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  margin: 200px 50px 35px 0px;
+}
+
+ul.nav {
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  border: 1px dashed #000;
+  border-bottom: none;
+  padding: 5px 15px 5px 15px;
+  background-color: #EAEAEA;
+  text-decoration: none;
+  color: #333;
 }
 /*#navbar {
     font-size: 50px;
