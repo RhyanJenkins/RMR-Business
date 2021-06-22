@@ -5,14 +5,19 @@ body {
 
 p {
     font-size: 50px;
-    font-color: black;
+    /*font-color: black; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;;
 }
 
-#navbar {
+#pic {
+ justify-content: center;
+}
+/*#navbar {
     font-size: 50px;
     height: 30px;
     text-align: center;
+    justify-content: flex-end; /*
 }
 
 #menu {
@@ -47,8 +52,8 @@ p {
     color: #fafafa;
 }
 
-*html #menu li a:hover { /* IE6 */
-    color: #fafafa;
+/*html #menu li a:hover { /* IE6 */
+    /* color: #fafafa; /*
 }
 
 #menu li:hover > ul {
@@ -159,7 +164,7 @@ p {
 }
 
 #menu ul li:first-child a:hover:after {
-    border-bottom-color: #04acec;
+    border-bottom-color: #04acec; 
 }
 
 /*#menu,
